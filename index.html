@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>My Portfolio</title>
+	<title>Full Stack Web Developer</title>
 
 	<!-- Bootstrap 5.0 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -20,81 +20,261 @@
 <body>
 
 	<!-- NavBar start -->
-	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-		  <a class="navbar-brand px-5 text-dark" href="#landing"> <img src="./images/rich2.jpg" width="60" height="60" class="img-fluid rounded-circle">  Richener</a>
-		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-		    <span class="navbar-toggler-icon"></span>
-		  </button>
+	<nav class="navbar navbar-expand-sm sticky-top">
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
 
-		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-		    <ul class="navbar-nav ms-auto px-3">
-		      <li class="nav-item">
-		        <a class="nav-link active text-dark" href="#landing"> <img src="./images/home.png"> Home<span class="sr-only"></span>
-		        </a>
-
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link active text-dark" href="#projects"> <img src="./images/project.png"> Projects</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link active text-dark" href="#"> <img src="./images/resume.png"> Portfolio</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link active text-dark" href="#tools"> <img src="./images/tools.png"> Tools</a>
-		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link active text-dark" href="#contact"> <img src="./images/contact.png"> Contact</a>
-		      </li>
-		    </ul>
-		  </div>
-		</nav>
+	  <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+	    <ul class="navbar-nav d-grid gap-lg-4 d-flex">
+	      <li class="nav-item">
+	        <a class="nav-link active text-white" href="#landing">
+	          <img src="./images/home.png" class="img-fluid nav-logo"> Home<span class="sr-only"></span>
+	        </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active text-white" href="#projects">
+	          <img src="./images/project.png" class="img-fluid nav-logo"> Projects
+	        </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active text-white" href="#">
+	          <img src="./images/resume.png" class="img-fluid nav-logo"> Resume
+	        </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active text-white" href="#tools">
+	          <img src="./images/tools.png" class="img-fluid nav-logo"> Tools
+	        </a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link active text-white" href="#contact">
+	          <img src="./images/contact.png" class="img-fluid nav-logo"> Contact
+	        </a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
 	<!-- NavBar end -->
 
 	<!-- Home Start -->
-	<section id="landing">
-		<div class="container">
-		  <div class="row">
-		    <div class="col-md-6 p-5 text-start justify-content-center d-flex flex-column text-justify col-sm-12">
-		      <h5 class="myWelcome">WELCOME TO MY WORLD</h5>
-		      <h1 class="myName p-2">Hi, I`m Richener</h1>
-		      <p >I`m a Full-Stack Web Developer and a Freelance Web Designer.</p>
-		    </div>
-		    <div class="col-md-6 p-5 d-flex flex-column justify-content-center col-sm-12">
-		      <img src="./images/rich2.jpg" width="400" height="400" class="rounded-circle img-fluid">
-		    </div>
-		    <div class="row">
-			    <h5 class="text-center myWelcome">FIND WITH ME</h5>
-			    <div class="col-md-12 justify-content-center d-flex py-5 d-grid gap-3 ">
-			    	<a href="https://facebook.com" target="_blank">
-			    	    <img src="./images/facebook.png" class="img-fluid logos">
-			    	</a> 
-			    	<a href="https://instagram.com" target="_blank">
-			    	    <img src="./images/instagram.png" class="img-fluid logos">
-			    	</a> 
-			    	<a href="https://linkedin.com" target="_blank">
-			    	    <img src="./images/linkedin.png" class="img-fluid logos">
-			    	</a>
-			    	<a href="https://gitlab.com" target="_blank">
-			    	    <img src="./images/gitlab.png" class="img-fluid logos">
-			    	</a>
-			    	<a href="https://github.com" target="_blank">
-			    	    <img src="./images/github.png" class="img-fluid logos">
-			    	</a>
-			    	<a href="https://gitlab.com" target="_blank">
-			    	    <img src="./images/contact2.png" class="img-fluid logos">
-			    	</a>
-			    </div>
-		    </div>
-		  </div>
-	</section>
+	<div class="container" >
+		<div class="row">
+			<div id="landing" class="col-lg-7 p-5 text-center justify-content-center d-flex flex-column text-justify order-lg-1 order-2 ">
+				<h5 class="mySpacing text-lg-start mt-lg-5">WELCOME TO MY PORTFOLIO</h5>
+				<h1 class="myName mt-3">Hi! I'm Richener</h1>
+				<p class="py-3 text-lg-start">I'm a Full-Stack Web Developer and a Freelance Web Designer. Highly skilled and motivated Full Stack Web Developer with a passion for creating innovative and user-friendly web applications. Committed to delivering exceptional results by utilizing my comprehensive knowledge of front-end and back-end development technologies. Seeking a challenging position where I can contribute my expertise in building robust and scalable web solutions, while continuously enhancing my skills in a collaborative and dynamic environment.</p>
+			</div>
+			<div class="col-lg-5 p-5 d-flex justify-content-center order-lg-2 order-1">
+				<img src="./images/rich2.png" width="350" class="rounded-circle img-fluid">
+			</div>
+		</div>
+	</div>
+	<div class="row col-12">
+			<h5 class="text-center mySpacing mt-lg-5">FIND WITH ME</h5>
+			<div class="justify-content-center d-flex py-5 d-grid gap-5">
+				<a href="https://facebook.com" target="_blank">
+					<img src="./images/facebook.png" class="img-fluid logos">
+				</a>
+				<a href="https://instagram.com" target="_blank">
+					<img src="./images/instagram.png" class="img-fluid logos">
+				</a>
+				<a href="https://linkedin.com" target="_blank">
+					<img src="./images/linkedin.png" class="img-fluid logos">
+				</a>
+				<a href="https://gitlab.com" target="_blank">
+					<img src="./images/gitlab.png" class="img-fluid logos">
+				</a>
+				<a href="https://github.com" target="_blank">
+					<img src="./images/github.png" class="img-fluid logos">
+				</a>
+			</div>
+	</div>
 	<!-- Home End -->
 
 	<!-- Project Start -->
-	<section id="projects">
-		<h1 class="text-center">Projects</h1>
-	</section>
+	<div class="text-center" id="projects">
+		<h1 class="mt-5 mb-5">My Projects</h1>
+	</div>
+	<div class="row row-cols-1 row-cols-md-3 g-4 p-5">
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="https://image.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories-vector-isolated-concept-metaphor-illustration_335657-2764.jpg" class="card-img-top" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">Developer Portfolio</h5>
+	        <p class="card-text">As a Full Stack Web Developer, I crafted my portfolio using HTML, CSS, and Bootstrap, ensuring a seamless user experience across diverse devices through responsive design principles.</p>
+	      </div>
+	      <div class="card-footer">
+	        <small class="text-muted">Last updated 22 mins ago</small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="https://image.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories-vector-isolated-concept-metaphor-illustration_335657-2764.jpg" class="card-img-top" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">E Commerce</h5>
+	        <p class="card-text">E-Commerce, also known as e-Business, or electronic business, is simply the sale and purchase of services and goods over an electronic medium, like the Internet.</p>
+	      </div>
+	      <div class="card-footer">
+	        <small class="text-muted">Last updated 4 days ago</small>
+	      </div>
+	    </div>
+	  </div>
+	  <div class="col">
+	    <div class="card h-100">
+	      <img src="https://image.freepik.com/free-vector/ordering-goods-online-internet-store-online-shopping-niche-e-commerce-website-mother-buying-babies-clothes-footwear-toys-infant-accessories-vector-isolated-concept-metaphor-illustration_335657-2764.jpg" class="card-img-top" class="card-img-top" alt="...">
+	      <div class="card-body">
+	        <h5 class="card-title">Card title</h5>
+	        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+	      </div>
+	      <div class="card-footer">
+	        <small class="text-muted">Last updated 28 days ago</small>
+	      </div>
+	    </div>
+	  </div>
+	</div>
 	<!-- Project End -->
 
+	<!-- Tools Start -->
+	<div class="text-center p-4" id="tools">
+		<h1 class="mt-5">Tools</h1>
+		<p class="mt-4">I used this tools and languages to build a responsive website.</p>
+		<div class="align-items-center justify-content-center d-flex m-5">
+		    <div class="col-md-3 m-4">
+		      <h3>Static</h3>
+		      <div class="row justify-content-center">
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-html5.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-css3.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-bootstrap.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-javascript.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	</div>
+		    </div>
+		    <div class="col-md-3 m-4">
+		      <h3>Dynamic</h3>
+		      <div class="row justify-content-center">
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-mongodb.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-expressjs.png" class="img-fluid logo-tools logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-react.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-nodejs.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	</div>
+		    </div>
+		    <div class="col-md-3 m-4">
+		      <h3>Other Tools</h3>
+		      <div class="row justify-content-center">
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-heroku.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-git.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-postman.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	  <div class="col-auto">
+		      	  	<img src="./images/logo-sublime-text-3.png" class="img-fluid logo-tools">
+		      	  </div>
+		      	</div>
+		    </div>
+		</div>
+	</div>
+	<!-- Tools End -->
+
+	<!-- Contact Start -->
+	<div class="container">
+	  <div class="row">
+	    <div id="contact" class="col-lg-6 p-5 text-center justify-content-center d-flex flex-column text-justify order-lg-1 order-last">
+	      <h1>Contact Me</h1>
+	      <form id="contact-form">
+	        <div class="mb-3">
+	          <label for="fullName" class="form-label">Full Name</label>
+	          <input type="text" class="form-control" id="fullName">
+	        </div>
+	        <div class="mb-3">
+	          <label for="exampleInputEmail1" class="form-label">Email address</label>
+	          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+	          <div id="emailHelp" class="form-text text-white">I'll never share your email with anyone else.</div>
+	        </div>
+	        <div class="mb-3">
+	          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+	          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+	        </div>
+	        <button type="submit" class="btn text-white" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
+	      </form>
+	    </div>
+
+	    <div class="col-lg-6 p-5 justify-content-center d-flex flex-column order-lg-2 order-first">
+	    	<h1 class="text-center">My Certificates</h1>
+	    	<div id="carouselExampleControls" class="carousel carousel-dark slide" data-bs-ride="carousel">
+	    	  <div class="carousel-inner">
+	    	    <div class="carousel-item active">
+	    	      <img src="./images/certificate1.jpg" class="d-block w-100 img-fluid certificate" alt="...">
+	    	    </div>
+	    	    <div class="carousel-item">
+	    	      <img src="./images/certificate2.jpg" class="d-block w-100 img-fluid certificate" alt="...">
+	    	    </div>
+	    	    <div class="carousel-item">
+	    	      <img src="./images/certificate3.png" class="d-block w-100 img-fluid certificate" alt="...">
+	    	    </div>
+	    	  </div>
+	    	  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	    	    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	    	    <span class="visually-hidden">Previous</span>
+	    	  </button>
+	    	  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	    	    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	    	    <span class="visually-hidden">Next</span>
+	    	  </button>
+	    	</div>
+	    </div>
+	    
+	  </div>
+	</div>
+
+	<div class="modal fade" tabindex="-1" id="modalDiv">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <h5 class="modal-title text-dark">Thank you for contacting me!</h5>
+	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	      </div>
+	      <div class="modal-body">
+	        <p class="text-dark">Message Successfully sent!</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- Contact End -->
+
+
+
+	<!-- Footer start -->
+	<div class="footer text-white d-flex flex-sm-10 justify-content-center d-grid gap-3 py-3">
+		<div>&copy; Property by Richener Pintiatura.</div>
+		<div>|</div>
+		<div>All rights reserved 2023.</div>
+	</div>
+	<!-- Footer end -->
 
 
 
