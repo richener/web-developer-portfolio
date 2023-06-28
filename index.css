@@ -16,8 +16,8 @@ body {
   text-decoration: underline;
 }
 .nav-logo {
-	height: 34px;
-	width: 34px;
+	height: 30px;
+	width: 30px;
 	filter: brightness(0) invert(1) sepia(0) saturate(10000%);
 }
 .navbar {
@@ -29,8 +29,6 @@ body {
 	
 }
 .logos {
-	width: 60px;
-	height: 60px;
 	filter: brightness(0) invert(1) sepia(0) saturate(10000%);
 }
 
