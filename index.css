@@ -16,8 +16,8 @@ body {
   text-decoration: underline;
 }
 .nav-logo {
-	height: 30px;
-	width: 30px;
+	height: 40px;
+	width: 40px;
 	filter: brightness(0) invert(1) sepia(0) saturate(10000%);
 }
 .navbar {
@@ -57,7 +57,7 @@ body {
 }
 
 .certificate {
-	height: 400px;
+	height: 320px;
 }
 
 
