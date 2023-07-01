@@ -20,7 +20,7 @@
 <body>
 
 	<!-- NavBar start -->
-	<nav class="navbar navbar-expand sticky-top">
+	<nav class="navbar navbar-expand bg-dark sticky-top">
 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	    <span class="navbar-toggler-icon"></span>
 	  </button>
@@ -72,7 +72,7 @@
 	</div>
 	<div class="row col-12">
 			<h5 class="text-center mySpacing mt-lg-5">FIND WITH ME</h5>
-			<div class="justify-content-center d-flex py-5 d-grid gap-md-5 gap-sm-3">
+			<div class="justify-content-center d-flex py-5 d-grid gap-md-5 gap-3">
 				<a href="https://facebook.com" target="_blank">
 					<img src="./images/facebook.png" class="img-fluid logos">
 				</a>
@@ -198,16 +198,16 @@
 	      <form id="contact-form">
 	        <div class="mb-3">
 	          <label for="fullName" class="form-label">Full Name</label>
-	          <input type="text" class="form-control" id="fullName">
+	          <input type="text" class="form-control" id="fullName" required>
 	        </div>
 	        <div class="mb-3">
 	          <label for="exampleInputEmail1" class="form-label">Email address</label>
-	          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+	          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
 	          <div id="emailHelp" class="form-text text-white">I'll never share your email with anyone else.</div>
 	        </div>
 	        <div class="mb-3">
 	          <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-	          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+	          <textarea class="form-control" id="exampleFormControlTextarea1" rows="4" required></textarea>
 	        </div>
 	        <button type="submit" class="btn text-white" data-bs-toggle="modal" data-bs-target="#modalDiv">Submit</button>
 	      </form>
@@ -263,7 +263,7 @@
 
 
 	<!-- Footer start -->
-	<div class="footer text-white d-flex flex-row justify-content-center d-grid gap-3 py-3">
+	<div class="footer bg-dark text-white d-flex flex-row justify-content-center d-grid gap-3 py-3">
 		<div>&copy; Property by RHP</div>
 		<div>|</div>
 		<div>All rights reserved 2023.</div>
