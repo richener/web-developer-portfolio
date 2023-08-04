@@ -10,17 +10,6 @@
   --sidbar-width: 200px;
 }
 
-/*:root {
-  --color-body: #b6cbce;
-  --color-heading: #eef3db;
-  --color-base: #033f47;
-  --color-base2: #022a30;
-  --color-brand: #e0f780;
-  --color-brand2: #deff58;
-  --sidbar-width: 200px;
-}*/
-
-
 body {
   background-color: var(--color-base2);
   color: var(--color-body);
@@ -86,6 +75,14 @@ img {
 
 }
 
+@media (max-width: 400px) {
+  .text-small {
+    padding: 0;
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+
 /*Navbar*/
 .navbar {
   background-color: var(--color-base);
@@ -127,7 +124,7 @@ img {
 
 /*Button*/
 .btn {
-  padding: 12px 28px;
+  padding: 12px 26px;
   font-weight: 700;
 }
 
