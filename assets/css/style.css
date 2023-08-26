@@ -199,7 +199,7 @@ img {
 
 #slider {
    margin: 0 auto;
-   width: auto;
+   width: 800px;
    max-width: 100%;
    text-align: center;
 }
